@@ -18,5 +18,23 @@ Before you begin, make sure you have the following installed on your system:
 ```bash
 git clone https://github.com/daurenswrld/myauthapp_node.git
 ```
+### Install Dependencies
+- Navigate to the project directory and install the required npm packages.
+```
+cd myauthapp
+npm install
+```
+### Database Configuration
+1. Create a PostgreSQL database for the application.
+2. Update the .env file in the project root with your database credentials:
+```
+DB_USER=your_db_user
+DB_HOST=your_db_host
+DB_DATABASE=your_db_name
+DB_PASSWORD=your_db_password
+DB_PORT=your_db_port
+```
+### Running the Application
+```npm start```
 
-
+#### The application will run on http://localhost:3000.
